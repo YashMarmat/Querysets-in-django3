@@ -13,6 +13,7 @@ Basics of Django QuerySets :)
 
 from blog.models import Blog
 >>>b = Blog(name='Beatles Blog', tagline='All the latest Beatles news.')
+
 creating a new blog (needs to fill all its field), b is just for variable assignment
 
 >>> b.save()
