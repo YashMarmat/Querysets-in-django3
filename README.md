@@ -15,7 +15,7 @@ Basics of Django QuerySets :)
 
 `b = Blog(name='Beatles Blog', tagline='All the latest Beatles news.')`
 
-creating a new blog (filling fields), b is just for variable assignment
+creating a new blog (filling fields), b is just for variable assignment (Blog Model in models.py)
 
 `b.save()`
 * Note: if using Blog.objects.create method then no need to use .save()
@@ -45,7 +45,7 @@ to find an object by its name (needs exact name)
 
 now all the blogs (objects) will have same tagline that is "updated tagline"
 
-* Example 2: Update objects of a particular year (our Entry model above)
+* Example 2: Update objects of a particular year (Entry model in models.py)
 
 `Entry.objects.filter(pub_date__year=2007).update(headline='Everything is the same')`
 
@@ -115,7 +115,7 @@ output: <QuerySet []>
 empty QuerySet (means successfully deleted all the objects)
 
 
-* Example 3: Delete objects of a particular year. (our Entry model above)
+* Example 3: Delete objects of a particular year. (Entry model in model.py)
 
 `Entry.objects.filter(pub_date__year=2005).delete()`
 
