@@ -12,7 +12,7 @@ Basics of Django QuerySets :)
 # Creating a Queryset
 
 from blog.models import Blog
->>>b = Blog(name='Beatles Blog', tagline='All the latest Beatles news.')
+`b = Blog(name='Beatles Blog', tagline='All the latest Beatles news.')`
 
 creating a new blog (filling fields), b is just for variable assignment
 
