@@ -14,7 +14,7 @@ Basics of Django QuerySets :)
 from blog.models import Blog
 >>>b = Blog(name='Beatles Blog', tagline='All the latest Beatles news.')
 
-creating a new blog (needs to fill all its field), b is just for variable assignment
+creating a new blog (filling fields), b is just for variable assignment
 
 >>> b.save()
 * Note: if using Blog.objects.create method then no need to use .save()
