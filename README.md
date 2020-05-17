@@ -34,7 +34,7 @@ to retrieve a blog of specific id
 `Blog.objects.get(name__iexact="New Smartphone")`
 
 to find an object by its name (needs exact name)
-* you can also other filter to retrieve an object (see documentation on QuerySets) 
+* you can also use other filters to retrieve an object (see documentation on QuerySets, link at the bottom) 
 
 
 # Update a Queryset
